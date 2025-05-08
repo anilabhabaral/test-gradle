@@ -1,13 +1,6 @@
 apiVersion: tekton.dev/v1
 kind: Pipeline
 metadata:
-  labels:
-    app.kubernetes.io/instance: test-gradle-git
-    app.kubernetes.io/name: test-gradle-git
-    operator.tekton.dev/operand-name: openshift-pipelines-addons
-    pipeline.openshift.io/runtime: java
-    pipeline.openshift.io/runtime-version: openjdk-17-ubi8
-    pipeline.openshift.io/type: kubernetes
   name: test-gradle-git
   namespace: bbb
 
